@@ -4,7 +4,7 @@ function time() {
   var hour = date.getHours();
   var minutes = date.getMinutes();
   var seconds = date.getSeconds();
-  var day = date.getDay() + 4;
+  var day = date.getDay() + 2;
   var month = date.getMonth() + 1;
   var year = date.getFullYear();
 
