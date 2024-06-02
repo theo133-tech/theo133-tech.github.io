@@ -1,26 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vocab Web</title>
-    <style>
-        button:hover{
-            cursor: pointer;
-        }
-    </style>
+  <title>Yearly Exam Countdown</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <div class="main">
-        <span id="onceLabel" style="font-size: 20px;">Enter the tabs you want to display at once (Default 10): </span>
-        <input type="number" id="onceInput" placeholder="Number" style="height: 40px; border-radius: 3px; border: solid 1px black;"><br>
-    
-        <button id="openBtn" style="border: solid 1px black; width: 80px; height: 40px; border-radius: 5px;">Open</button>
-        <button id="contBtn" style="border: solid 1px black; width: 80px; height: 40px; border-radius: 5px; visibility: hidden;" disabled="true">Continue</button>
-    </div>
+  <h3>而家已經係: <span id="timeDis">00:00:00</span></h3>
+  <h1>各位考試加油呀!!!</h1>
+  <img src="idk.png" alt="Timetable">
+  <div class="table">
+    <table>
+      <tr>
+        <th>Chinese Reading</th>
+        <th>Chinese Writing</th>
+        <th>English Reading</th>
+        <th>English Writing</th>
+        <th>BAFS</th>
+        <th>BAFS 2</th>
+        <th>Math Paper 1</th>
+        <th>Math Paper 2</th>
+        <th>English Listening</th>
+        <th>Economics 1</th>
+        <th>Economics 2</th>
+        <th>Music 2</th>
+        <th>CS</th>
+        <th>Chinese History</th>
+        <th>ICT</th>
+        <th>ICT 2</th>
+        <th>Visual Arts</th>
+        <th>Biology</th>
+        <th>Chinese Literature 1</th>
+        <th>Chinese Literature 2</th>
+        <th>Physics</th>
+        <th>History</th>
+        <th>History 2</th>
+        <th>Geography</th>
+        <th>Geography 2</th>
+        <th>Music 1A</th>
+        <th>Music 1B</th>
+        <th>Chemistry</th>
+        <th>English Speaking</th>
+        <th>M2</th>
+      </tr>
+      <tr>
+        <td id="c1"></td>
+        <td id="c2"></td>
+        <td id="e1"></td>
+        <td id="e2"></td>
+        <td id="ba"></td>
+        <td id="ba2"></td>
+        <td id="mp1"></td>
+        <td id="mp2"></td>
+        <td id="e3"></td>
+        <td id="econ1"></td>
+        <td id="econ2"></td>
+        <td id="mus2"></td>
+        <td id="cs"></td>
+        <td id="chis"></td>
+        <td id="ict"></td>
+        <td id="ict2"></td>
+        <td id="va"></td>
+        <td id="bio"></td>
+        <td id="clit1"></td>
+        <td id="clit2"></td>
+        <td id="phy"></td>
+        <td id="hist"></td>
+        <td id="hist2"></td>
+        <td id="geo"></td>
+        <td id="geo2"></td>
+        <td id="mus1a"></td>
+        <td id="mus1b"></td>
+        <td id="chem"></td>
+        <td id="e4"></td>
+        <td id="m2"></td>
+      </tr>
+    </table>
+  </div>
 
 
-    <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
